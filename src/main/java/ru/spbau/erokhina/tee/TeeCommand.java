@@ -1,3 +1,5 @@
+package ru.spbau.erokhina.tee;
+
 import sun.misc.Signal;
 import sun.misc.SignalHandler;
 
@@ -20,7 +22,7 @@ public class TeeCommand {
                     isIgnore = true;
                 } else {
                     System.out.println("illegal option -- " + args[curIndex].charAt(i));
-                    System.out.println("usage: java TeeCommand [-ai] [file ...]");
+                    System.out.println("usage: java ru.spbau.erokhina.tee.TeeCommand [-ai] [file ...]");
                     return 0;
                 }
             }
