@@ -2,7 +2,7 @@
 */.idea/workspace.xml
 
 # ignore gradle
-*/.gradle/
+*.gradle/
 
 # ignore out
 */out/
